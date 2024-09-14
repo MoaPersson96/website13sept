@@ -37,11 +37,17 @@ nav li {
     margin-right: 20px;
 }
 
+article {
+    font-size: large;
+}
+
 .box {
     border: solid 5px black;
     padding: 5px;
     margin: 5px;
     position: relative;
+    bottom: 15px;
+    height: 200px;
 }
 
 .box2 {
@@ -49,6 +55,8 @@ nav li {
     padding: 5px;
     margin: 5px;
     position: relative;
+    bottom: 15px;
+    height: 200px;
 }
 
 
@@ -80,23 +88,25 @@ footer {
 @media (min-width: 1025px) {
     .box {
         border: solid 20px lightblue;
+        font-size: large;
         padding: 20px;
         margin: 15px;
         position: relative;
         width: 400px;
-        height: 200px;
-        top: 62px;
+        height: 260px;
+        top: 20px;
     }
     
     .box2 {
         border: solid 20px gold;
+        font-size: large;
         padding: 20px;
         margin: 15px;
         position: relative;
         width: 400px;
-        height: 200px;
+        height: 260px;
         left: 500px;
-        bottom: 233px;
+        bottom: 335px;
     }
 
     header {
@@ -107,8 +117,14 @@ footer {
     }
 
     h1 {
-        padding: 10px;
-        margin: 10px;
+        padding: 20px;
+        margin: 20px;
     }
+
+article {
+    font-size: x-large;
+    margin: 5px;
+    padding: 5px;
+}
 
 }
